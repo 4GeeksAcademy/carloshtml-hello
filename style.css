@@ -40,17 +40,17 @@ section article:hover{
 box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
 }
 
-section article div h2 {
+.nombrePost{
 display: flex;
+}
+
+section article div h2{
 width: 400px;
+margin: 1 rem 0;
 }
 
-section article div{
-display: inline-block;
-}
-
-section article div .numPag {
-float: right;
+.numPag {
+color: #364552;
 }
 
 section article p {
